@@ -1,0 +1,156 @@
+/* ======== Estilos Generales ======== */
+
+body {
+  background: linear-gradient(to right, #45096d, #185a9d);
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+/* ======== Navbar ======== */
+
+.barra-color {
+  background: linear-gradient(to right, #45096d, #185a9d);
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.titulo-logo {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #ffffff !important;
+  transition: 0.3s;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #00ffc8 !important;
+}
+
+/* Tarjetas de planes */
+.card {
+  background-color: #ffffff;
+  color: #c90404;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(245, 239, 239, 0.4);
+}
+
+.card-title {
+  color: #45096d;
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Botón dentro de tarjeta */
+.card .btn {
+  background-color: #45096d;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.card .btn:hover {
+  background-color: #185a9d;
+}
+
+/* Footer */
+footer {
+  background-color: #0e0d0d;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+footer p {
+  color: #e9dada;
+  margin-bottom: 10px;
+}
+
+footer .contacto {
+  width: 30px;
+  margin: 0 8px;
+  filter: brightness(90%);
+  transition: transform 0.2s ease;
+}
+
+footer .contacto:hover {
+  transform: scale(1.2);
+  filter: brightness(120%);
+}
+
+/* Caja del formulario */
+.caja-pago {
+  background: linear-gradient(to right, #270f8f, #133758);
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(235, 230, 230, 0.2);
+  padding: 30px;
+  flex: 1 1 350px;
+  max-width: 400px;
+  animation: aparecer 1s ease-in-out;
+}
+
+
+.form-select {
+  border-radius: 8px;
+
+  color: #cf0f0f;
+}
+
+/* Botón de pago */
+.btn-pagar {
+    background: linear-gradient(to right, #f7920f, #0d80ec);
+  border: none;
+  font-weight: bold;
+  color: white;
+}
+
+.btn-pagar:hover {
+  background-color: #111111;
+}
+
+/* Footer */
+footer {
+  margin-top: auto;
+  background-color: #0e0d0d;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  color: #e9dada;
+  margin-bottom: 10px;
+}
+
+footer .contacto {
+  width: 30px;
+  margin: 0 8px;
+  filter: brightness(90%);
+  transition: transform 0.2s ease;
+}
+
+footer .contacto:hover {
+  transform: scale(1.2);
+  filter: brightness(120%);
+}

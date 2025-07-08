@@ -1,0 +1,86 @@
+/* Fondo general del body */
+body {
+  background: linear-gradient(to right, #45096d, #185a9d);
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+}
+
+/* Navbar */
+.barra-color {
+  background: linear-gradient(to right, #45096d, #185a9d);
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.titulo-logo {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #ffffff !important;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+  color: #00ffc8 !important;
+}
+
+/* Sección Conócenos */
+.seccion-degradado {
+  background: linear-gradient(to right, #45096d, #185a9d);
+  color: #ffffff;
+}
+
+.seccion-degradado h2,
+.seccion-degradado h3 {
+  color: #00ffc8;
+  font-weight: bold;
+}
+
+.seccion-degradado p,
+.seccion-degradado ul,
+.seccion-degradado li {
+  color: #f0f0f0;
+  font-size: 1.1rem;
+}
+
+.seccion-degradado ul {
+  padding-left: 20px;
+}
+
+.seccion-degradado li::marker {
+  color: #00ffc8;
+}
+
+/* Imágenes del equipo */
+.equipo-img {
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  max-width: 250px;
+  transition: transform 0.3s ease;
+}
+
+.equipo-img:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer .contacto {
+  width: 30px;
+  margin: 0 10px;
+  transition: transform 0.2s;
+  filter: brightness(90%);
+}
+
+footer .contacto:hover {
+  transform: scale(1.2);
+  filter: brightness(120%);
+}

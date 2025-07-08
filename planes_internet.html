@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Planes Internet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="planes_nternet.css">
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg barra-color">
+      <div class="container-fluid">
+        <img src="img/mundo.png" alt="logo" class="logo" />
+        <a class="navbar-brand titulo-logo" href="index.html">CONEXIÓN WEB</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link link-inicio" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-inicio" href="inicio_sesion.html">Iniciar sesión</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="conocenos.html">Conócenos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Internet</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="planes_internet.html">Planes de internet</a></li>
+                <li><a class="dropdown-item" href="metodo_pago.html">Pago internet</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" />
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carrusel -->
+    <section>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/planes internet.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/planes internet 2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/planes internet3.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Tarjetas de Planes de Internet -->
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-3 g-4 text-center">
+        <!-- Plan Básico -->
+        <div class="col">
+          <div class="card h-100 border-primary shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title text-primary"><i class="bi bi-wifi"></i> Plan Básico</h5>
+              <p class="card-text">Ideal para navegación diaria y redes sociales.</p>
+              <ul class="list-unstyled">
+                <li>✔ Velocidad: <strong>15 Mbps</strong></li>
+                <li>✔ Hasta 2 dispositivos</li>
+                <li>✔ Soporte 24/7</li>
+                <li>✔ Sin cláusula de permanencia</li>
+              </ul>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a href="metodo_pago.html" class="btn btn-outline-primary w-100">Lo quiero</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Plan Familiar -->
+        <div class="col">
+          <div class="card h-100 border-success shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title text-success"><i class="bi bi-house-door"></i> Plan Familiar</h5>
+              <p class="card-text">Perfecto para hogares conectados.</p>
+              <ul class="list-unstyled">
+                <li>✔ Velocidad: <strong>50 Mbps</strong></li>
+                <li>✔ Streaming HD y clases virtuales</li>
+                <li>✔ Hasta 5 dispositivos</li>
+                <li>✔ Instalación gratuita</li>
+              </ul>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a href="metodo_pago.html" class="btn btn-outline-success w-100">Lo quiero</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Plan Gamer -->
+        <div class="col">
+          <div class="card h-100 border-danger shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title text-danger"><i class="bi bi-controller"></i> Plan Gamer</h5>
+              <p class="card-text">Para los que necesitan máxima velocidad.</p>
+              <ul class="list-unstyled">
+                <li>✔ Velocidad: <strong>150 Mbps</strong></li>
+                <li>✔ Streaming 4K y juegos online</li>
+                <li>✔ Latencia ultra baja</li>
+                <li>✔ Router de alta gama incluido</li>
+              </ul>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a href="metodo_pago.html" class="btn btn-outline-danger w-100">¡Lo quiero!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Recargas -->
+    <section class="fondo-recargas">
+      <div class="container">
+        <div class="row text-center g-4">
+          <!-- Plan Recarga 1 -->
+          <div class="col-md-4">
+            <div class="card tarjeta-recarga h-100">
+              <div class="card-body">
+                <h5 class="titulo-plan text-primary">Plan Básico</h5>
+                <p class="descripcion-plan">Ideal para redes sociales y chats</p>
+                <ul class="lista-beneficios text-start">
+                  <li>✔ Minutos ilimitados a cualquier operador</li>
+                  <li>✔ 2 GB para navegar</li>
+                  <li>✔ WhatsApp sin gastar datos</li>
+                  <li>✔ Vigencia 6 días</li>
+                </ul>
+                <p class="precio-plan">$7.500</p>
+                <a href="metodo_pago.html" class="btn btn-recargar">Lo quiero</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Plan Recarga 2 -->
+          <div class="col-md-4">
+            <div class="card tarjeta-recarga h-100">
+              <div class="card-body">
+                <h5 class="titulo-plan text-success">Plan Social Plus</h5>
+                <p class="descripcion-plan">Perfecto para estar en línea toda la semana</p>
+                <ul class="lista-beneficios text-start">
+                  <li>✔ Minutos ilimitados + redes sociales ilimitadas</li>
+                  <li>✔ 5 GB libres para navegar</li>
+                  <li>✔ Vigencia 10 días</li>
+                  <li>✔ Soporte 24/7</li>
+                </ul>
+                <p class="precio-plan">$11.500</p>
+                <a href="metodo_pago.html" class="btn btn-recargar">Lo quiero</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Plan Recarga 3 -->
+          <div class="col-md-4">
+            <div class="card tarjeta-recarga h-100">
+              <div class="card-body">
+                <h5 class="titulo-plan text-danger">Plan Full Gamer</h5>
+                <p class="descripcion-plan">Para los que no paran de jugar y navegar</p>
+                <ul class="lista-beneficios text-start">
+                  <li>✔ Minutos y SMS ilimitados</li>
+                  <li>✔ 8 GB de navegación libre</li>
+                  <li>✔ Redes sociales sin límite</li>
+                  <li>✔ Vigencia 15 días</li>
+                </ul>
+                <p class="precio-plan">$15.000</p>
+                <a href="metodo_pago.html" class="btn btn-recargar">¡Lo quiero!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+      <div class="container">
+        <p class="mb-0">&copy; Todos los derechos reservados por Conexión Web.</p>
+        <img src="img/facebook.png" class="contacto" alt="Facebook">
+        <img src="img/instagram (3).png" class="contacto" alt="Instagram">
+        <img src="img/whatssapp-big-logo.png" class="contacto" alt="WhatsApp">
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>

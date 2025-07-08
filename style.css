@@ -1,0 +1,173 @@
+/* ======== Estilos Generales ======== */
+
+body {
+  background: linear-gradient(to right, #45096d, #185a9d);
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+/* ======== Navbar ======== */
+
+.barra-color {
+  background: linear-gradient(to right, #45096d, #185a9d);
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.titulo-logo {a
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #ffffff !important;
+  transition: 0.3s;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #00ffc8 !important;
+}
+
+/* ======== Carrusel ======== */
+
+.carousel img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .carousel img {
+    height: 450px;
+  }
+}
+
+/* ======== Sección Descripción ======== */
+
+.descripcion-proyecto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 1rem;
+  gap: 2rem;
+}
+
+.descripcion-proyecto .contenedor-texto {
+  max-width: 600px;
+}
+
+.descripcion-proyecto .btn-contacto {
+  background-color: #fff;
+  color: #45096d;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.descripcion-proyecto .btn-contacto:hover {
+  background-color: #45096d;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.contenedor-imagen img {
+  max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/* ======== Tarjetas ======== */
+
+.contenedor-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem 1rem;
+  gap: 1.5rem;
+}
+
+.card {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  background-color: #fff;
+  color: #333;
+  text-align: center;
+}
+
+.card-title {
+  color: #45096d;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.card .btn {
+  background-color: #45096d;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin-top: 10px;
+}
+
+.card .btn:hover {
+  background-color: #185a9d;
+}
+
+/* ======== Footer ======== */
+
+footer {
+  background-color: #111;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+  color: #ccc;
+}
+
+footer .contacto {
+  width: 30px;
+  margin: 0 10px;
+  filter: brightness(90%);
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+footer .contacto:hover {
+  transform: scale(1.2);
+  filter: brightness(120%);
+}

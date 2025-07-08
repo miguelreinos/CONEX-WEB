@@ -1,0 +1,101 @@
+/* ======== Estilos Generales ======== */
+
+body {
+  background: linear-gradient(to right, #45096d, #185a9d);
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+/* ======== Navbar ======== */
+
+.barra-color {
+  background: linear-gradient(to right, #45096d, #185a9d);
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.titulo-logo {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #ffffff !important;
+  transition: 0.3s;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #00ffc8 !important;
+}
+
+/* Tarjetas de planes */
+.card {
+  background-color: #ffffff;
+  color: #333;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.card-title {
+  color: #45096d;
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Botón dentro de tarjeta */
+.card .btn {
+  background-color: #45096d;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.card .btn:hover {
+  background-color: #185a9d;
+}
+
+/* Footer */
+footer {
+  background-color: #0e0d0d;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+footer p {
+  color: #e9dada;
+  margin-bottom: 10px;
+}
+
+footer .contacto {
+  width: 30px;
+  margin: 0 8px;
+  filter: brightness(90%);
+  transition: transform 0.2s ease;
+}
+
+footer .contacto:hover {
+  transform: scale(1.2);
+  filter: brightness(120%);
+}

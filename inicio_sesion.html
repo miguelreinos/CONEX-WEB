@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inicio sesión - Conexión Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="inicio_secion.css">
+  </head>
+  <!-- Navbar -->
+     <section>
+    <nav class="navbar navbar-expand-lg barra-color">
+
+      <div class="container-fluid">
+        <img src="img/mundo.png" alt="logo" class="logo"/>
+        <a class="navbar-brand titulo-logo" href=""> CONEXIÓN WEB</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link link-inicio" href="index.html">Inicio</a>
+            </li>
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link link-inicio" href="inicio_sesion.html">iniciar sesion </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="conosenos.html">Conócenos</a>
+              
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Internet</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="planes_internet.html">Planes de internet</a></li>
+                <li><a class="dropdown-item" href="metodo_pago.html">Pago internet</a></li>
+              </ul>
+            </li>
+
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" />
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    </section>
+    <!--  -->
+    <section>
+    <div class="tarjeta-container">
+      <!-- Iniciar sesión -->
+      <div class="tarjeta-formulario">
+        <h3>Iniciar Sesión</h3>
+        <form>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="correoLogin" placeholder="Correo electrónico">
+            <label for="correoLogin">Correo electrónico o telefono</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="claveLogin" placeholder="Contraseña">
+            <label for="claveLogin">Contraseña</label>
+          </div>
+          <button type="submit" class=" btn-custom mt-3">Entrar</button>
+          <a href="crear_cuenta.html">Crear cuenta</a>
+        </form>
+      </div>
+    </div>
+    </section>
+    <!--  -->
+         <section>
+       <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+          <p class="mb-0">
+            &copy; Todos los derechos reservados por Conexión web. 
+          </p>
+            <img src="img/facebook.png" class="contacto" alt="Facebook">
+      <img src="img/instagram (3).png" class="contacto" alt="Instagram">
+      <img src="img/whatssapp-big-logo.png" class="contacto" alt="WhatsApp">
+        </div>
+      </footer>
+   </section>
+    <!--  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</html>

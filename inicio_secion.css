@@ -1,0 +1,110 @@
+/* ======== Estilos Generales ======== */
+
+body {
+  background: linear-gradient(to right, #45096d, #185a9d);
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+/* ======== Navbar ======== */
+
+.barra-color {
+  background: linear-gradient(to right, #45096d, #185a9d);
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.titulo-logo {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #ffffff !important;
+  transition: 0.3s;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #00ffc8 !important;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width:100%;
+  overflow-x: hidden;
+}
+
+
+body {
+  background: linear-gradient(to right, #45096d, #185a9d);
+  min-height: 10vh;
+  color: #141414;
+}
+.barra-color {
+  background: linear-gradient(to right, #45096d, #185a9d);
+  color: rgb(71, 14, 14);
+}
+
+.tarjeta-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 50px 20px;
+  margin: 0 auto;
+  max-width:1200px;
+}
+
+
+.tarjeta-formulario {
+  background: linear-gradient(to right, #270f8f, #133758);
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(235, 230, 230, 0.2);
+  padding: 30px;
+  flex: 1 1 350px;
+  max-width: 400px;
+  animation: aparecer 1s ease-in-out;
+};
+
+
+.tarjeta-formulario h3 {
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.btn-custom {
+  background: linear-gradient(to right, #f7920f, #0d80ec);
+  border: none;
+  color: rgb(20, 20, 20);
+  font-weight: bold;
+  width: 100%;
+}
+
+.btn-custom:hover {
+  background-color: #073488;
+  color: white;
+}
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
